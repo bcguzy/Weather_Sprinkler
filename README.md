@@ -2,12 +2,12 @@
 A WiFi based sprinkler that uses rainfall totals to determine if a plant needs watering or not.
 
 ## Hardware Used  
--ESP8266 NodeMCU
--ESP8266 NodeMCU motor shield
--9V Solenoid Valve
--Power source (9V battery used in this project)
--Fittings and tubing for solenoid Valve
--Female to Female wire for Deep Sleep functionality  
+- ESP8266 NodeMCU  
+- ESP8266 NodeMCU motor shield  
+- 9V Solenoid Valve  
+- Power source (9V battery used in this project)  
+- Fittings and tubing for solenoid Valve  
+- Female to Female wire for Deep Sleep functionality   
   
 The above photo shows the wiring for this project. The solenoid valve was attached to the Motor A terminals on the motor shield board.
 9V Battery was attached to the ESP8266 power connector and a jumper wire was used to connect the ESP power and motor power together.
