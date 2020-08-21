@@ -17,7 +17,7 @@ Pin D0 is the wake pin and will be used to reset the NodeMCU when the deep sleep
 ## Programing libraries and techniques used  
 The arduino IDE was used to develop the software for the sprinkler because of its robust support for the NodeMCU and for ease of use.
 [The standard ESP8266 libraries ESP8266Wifi and ESP8266HTTPClient](https://github.com/esp8266/Arduino) were used along with [ArduinoJson](https://github.com/bblanchon/ArduinoJson) for json processing.
-Note that the placeholder ssid and password need to be replaced before this github code can be used. Serial outputs were used for debugging and to ensure that data was being recieved.
+Note that the placeholder ssid, password, and API key need to be replaced before this github code can be used. Serial outputs were used for debugging and to ensure that data was being recieved.
 
 ## Possible Modifications
 There are several hardware modifications that could be made to this design to make it more compact and suitible for outdoor use.
