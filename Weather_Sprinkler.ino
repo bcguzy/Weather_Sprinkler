@@ -22,7 +22,7 @@ void setup() {
   }
    if (WiFi.status() == WL_CONNECTED) {
     HTTPClient http;  
-    http.begin("http://api.openweathermap.org/data/2.5/onecall?lat=42.9675&lon=-78.78345&units=imperial&appid=14ef9727e5fc6373b093c5bd4ace0844");
+    http.begin("http://api.openweathermap.org/data/2.5/onecall?lat=42.9675&lon=-78.78345&units=imperial&appid=  API KEY GOES HERE ");//replace your api key here
     int httpCode = http.GET();
     String json = http.getString();
     //Check the return code to ensure the request was successful                                                                 
