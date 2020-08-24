@@ -13,7 +13,7 @@ The above photo shows the wiring for this project. The solenoid valve was attach
 9V Battery was attached to the ESP8266 power connector and a jumper wire was used to connect the ESP power and motor power together.
 This means that the same power source can be used for both the motor and the ESP8266. A female to female wire was used to connect pin D0 to the reset pin.
 Pin D0 is the wake pin and will be used to reset the NodeMCU when the deep sleep timer is up.  
-  
+![photo of wiring](https://github.com/bcguzy/Weather_Sprinkler/blob/master/photos/wiring.jpg)  
 ## Programing libraries and techniques used  
 The arduino IDE was used to develop the software for the sprinkler because of its robust support for the NodeMCU and for ease of use.
 [The standard ESP8266 libraries ESP8266Wifi and ESP8266HTTPClient](https://github.com/esp8266/Arduino) were used along with [ArduinoJson](https://github.com/bblanchon/ArduinoJson) for json processing.
